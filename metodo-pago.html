@@ -1,13 +1,88 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/diseño.css">
+
+    <title>Metodos de Pago</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-body">
+            <br>
+            <div class="card" style="background-color: darkgrey;">
+                <th>TUS DATOS</th>
+                <div class="card">
+                    <td id="informacion-usuario">
+                        <br>
+                    </td>
+                </div>
+                <th>SELECCIONA EL MEDIO DE PAGO</th>
+                <div class="card">
+
+                    <table class="table">
+
+                        <tbody>
+                            <tr>
+                            
+                                <th>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                            id="exampleRadios1" value="option1">
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            Tarjeta de Credito o Debito
+                                        </label>
+                                    </div>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                            value="option2">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            PayPal
+                                        </label>
+                                    </div>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                                            value="option3">
+                                        <label class="form-check-label" for="exampleRadios3">
+                                            Efectivo
+                                        </label>
+                                    </div>
+                                    <img src="data:image/png;base64,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">
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
+        crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js",
+        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.esm.min.js"
+      }
+    }
+    </script>
+
+    <script src="js/app.js"></script>
+
+</body>
+
 </html>
