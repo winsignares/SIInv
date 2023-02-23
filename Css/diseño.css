@@ -1,31 +1,52 @@
 .visa {
     margin: 10px 0px 10px 50px;
-    width: 100px;
-    height: 65px;
-    border-radius: 50%;
+    width: 50px; height: 35px;
+    border-radius: 10%;
 }
 
 .masterd {
     margin: 10px 0px 10px 0px;
-    width: 100px;
-    height: 70px;
-    border-radius: 90%;
+    width: 65px; height: 38px;
+    border-radius: 7%;
 }
 
 .pse {
     margin: 10px 0px 10px 0px;
-    width: 95px;
-    height: 70px;
+    width: 45px; height: 42px;
 }
 
 .pay {
     margin: 10px 0px 10px 30px;
-    width: 95px;
-    height: 60px;
+    width: 70px; height: 40px;
 }
 
 .efec {
     margin: 10px 0px 10px 30px;
-    width: 95px;
-    height: 90px;
+    width: 75px; height: 60px;
+}
+#titledecard { 
+    text-align: center;
+    margin: -16px;
+    font-size: 14px;   
+    width: 334px;
+    height: 40px;
+    background-color: darkgray;
+    line-height: 40px;
+}
+#resumendecompra {
+    width: 335px;
+    border-radius: 0%;
+
+}
+#refer {
+    font-weight: 600;
+}
+#descrip {
+    font-weight: 600;
+}
+#cant {
+    font-weight: 600;
+}
+#TotalN{
+    font-weight: 600;
 }

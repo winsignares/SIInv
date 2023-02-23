@@ -13,24 +13,26 @@
 
 <body>
     <div class="container">
-        <div class="card-body">
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
             <br>
             <div class="card" style="background-color: darkgrey;">
                 <th>TUS DATOS</th>
                 <div class="card">
                     <td id="informacion-usuario">
+                        Informacio del usuario
                         <br>
                     </td>
                 </div>
                 <th>SELECCIONA EL MEDIO DE PAGO</th>
-                <div class="card">
 
                     <table class="table">
 
                         <tbody>
                             <tr>
                             
-                                <th>
+                                <div class="card">
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="exampleRadios"
                                             id="exampleRadios1" value="option1">
@@ -41,10 +43,11 @@
                                             <img src="IMG/pse.jpg" class="pse" alt="">
                                         </label>
                                     </div>
-                                </th>
+                                </div>
                             </tr>
+                            <br >
                             <tr>
-                                <th>
+                                <div class="card">
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
                                             value="option2">
@@ -53,10 +56,11 @@
                                             <img src="IMG/paypal.png" class="pay" alt="">
                                         </label>
                                     </div>
-                                </th>
+                                </div>
                             </tr>
+                            <br >
                             <tr>
-                                <th>
+                                <div class="card">
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
                                             value="option3">
@@ -65,14 +69,27 @@
                                             <img src="IMG/efectivo.png" class="efec" alt="">
                                         </label>
                                     </div>
-                                </th>
+                                </div>
                             </tr>
                         </tbody>
                     </table>
-                </div>
             </div>
         </div>
+        <div class="col">
+            <br >
+            <div class="card" id="resumendecompra">
+              <div class="card-body">
+                <h5 class="card-title" id="titledecard">RESUMEN DE COMPRA</h5>
+                <br >
+                <p class="card-text" id="refer">Referencia: </p>
+                <p class="card-text" id="descrip">Descripcion: </p>
+                <p class="card-text" id="cant">Cantidad: </p>
+                <p class="card-text" id="TotalN">Total a Pagar: </p>
+            </div>
+            </div>
+          </div>
     </div>
+    
 
     <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
         crossorigin="anonymous"></script>
