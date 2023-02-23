@@ -1,0 +1,31 @@
+.visa {
+    margin: 10px 0px 10px 50px;
+    width: 100px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.masterd {
+    margin: 10px 0px 10px 0px;
+    width: 100px;
+    height: 70px;
+    border-radius: 90%;
+}
+
+.pse {
+    margin: 10px 0px 10px 0px;
+    width: 95px;
+    height: 70px;
+}
+
+.pay {
+    margin: 10px 0px 10px 30px;
+    width: 95px;
+    height: 60px;
+}
+
+.efec {
+    margin: 10px 0px 10px 30px;
+    width: 100px;
+    height: 90px;
+}
