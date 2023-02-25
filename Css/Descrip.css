@@ -39,26 +39,26 @@
 }
 
 .suma_img {
-    margin: -90px -405px -33px 315px;
+    margin: -117px -405px -32px 379px;
     height: 27px;
     width: 27px;
 }
 
 .moto_img {
-    margin: -663px -470px -30px 5px;
+    margin: -689px -470px -30px 70px;
     height: 60px;
     width: 60px;
     border-radius: 50%;
 }
 
-#resu {
+/**/#resu {
     margin: -300px 350px -150px 709px;
     width: 400px;
     height: 450px;
 }
 
 #descu {
-    margin: 15px 0px 0px 0px;
+    margin: 15px 0px 0px -11px;
     width: 399px;
     height: 45px;
 }
@@ -91,21 +91,20 @@
 
 
 .porce {
-    margin: -31px -401px -34px 43px;
+    margin: -30px -398px -27px 102px;
     height: 27px;
     width: 27px;
 }
 
 #cupon {
-    margin: -2px -407px 3px 80px;
+    margin: -2px -407px 0px -236px;
     height: 27px;
-    width: 219px;
-    border-bottom: 15%;
+    width: 267px;
 }
 
 #btn-canje {
     margin: 20px -102px -24px 308px;
-    height: 60px;
+    height: 38px;
     width: 60px;
     background-color: chartreuse;
     font-weight: bold;
@@ -129,7 +128,7 @@
 }
 
 #separar {
-    margin: 10px 8px 3px 3px;
+    margin: 8px 8px 3px 3px;
 }
 
 #separar2 {
@@ -138,4 +137,10 @@
 
 #separar1 {
     margin: -5px 8px 3px 3px;
+}
+.cuadrado{
+    margin: -23px 20px -17px 290px;
+    width: 90px;
+    height: 40px;
+    background: azure;
 }
