@@ -1,0 +1,141 @@
+#resumendecompra {
+    width: 700px;
+    height: 200px;
+    text-align: center;
+}
+
+.met_img {
+    margin: -80px 700px 0px 1px;
+    height: 120px;
+    width: 250px;
+}
+
+#titlecard {
+    margin: 20px 0px 0px 100px;
+}
+
+#x {
+    margin: 0px 0px 0px 0px;
+}
+
+#ref {
+    margin: 0px 0px 0px 70px;
+}
+
+.basu_img {
+    margin: -130px -305px 0px 290px;
+    height: 20px;
+    width: 20px;
+}
+
+#card-siu {
+    width: 700px;
+    height: 30px;
+}
+
+#prog {
+    width: 295px;
+    height: 30px;
+}
+
+.suma_img {
+    margin: -90px -405px -33px 315px;
+    height: 27px;
+    width: 27px;
+}
+
+.moto_img {
+    margin: -663px -470px -30px 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#resu {
+    margin: -300px 350px -150px 709px;
+    width: 400px;
+    height: 450px;
+}
+
+#descu {
+    margin: 15px 0px 0px 0px;
+    width: 399px;
+    height: 45px;
+}
+
+#resumen {
+    margin: 13px 0px 2px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#u {
+    margin: 15px 0px 0px 0px;
+    width: 80px;
+    height: 100px;
+}
+
+#btn-quiero {
+    margin: -48px 63px 0px 295px;
+    width: 95px;
+    height: 45px;
+    border-radius: 40%;
+    background-color: rgb(208, 255, 36);
+    font-size: 13px;
+}
+
+.des {
+    margin: -64px 0px 0px 0px;
+    font-size: 12px;
+}
+
+
+.porce {
+    margin: -31px -401px -34px 43px;
+    height: 27px;
+    width: 27px;
+}
+
+#cupon {
+    margin: -2px -407px 3px 80px;
+    height: 27px;
+    width: 219px;
+    border-bottom: 15%;
+}
+
+#btn-canje {
+    margin: 20px -102px -24px 308px;
+    height: 60px;
+    width: 60px;
+    background-color: chartreuse;
+    font-weight: bold;
+    border-radius: 25%;
+}
+
+#value {
+    margin: -20px 8px 3px 80px;
+}
+
+#prod {
+    margin: -10px 50px 3px 5px;
+}
+
+#canv {
+    margin: -20px 8px 3px 80px;
+}
+
+#cantp {
+    margin: -10px 8px 3px 5px;
+}
+
+#separar {
+    margin: 10px 8px 3px 3px;
+}
+
+#separar2 {
+    margin: -5px 8px 3px 3px;
+}
+
+#separar1 {
+    margin: -5px 8px 3px 3px;
+}
