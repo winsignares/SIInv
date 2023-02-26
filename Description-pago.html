@@ -12,13 +12,28 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" id="maximo">
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <br>
+        <div class="container" id="cuadro1">
+          <p>1</p>
+          <p id="descri" style="color: aquamarine; font-size: 15px;">Descripcion Pago</p>
+        </div>
+
+        <div class="container" id="cuadro2">
+          <p>2</p>
+          <p id="descri" style="color: aquamarine; font-size: 15px;">Metodos de Pago</p>
+        </div>
+
+        <div class="container" id="cuadro3">
+          <p>3</p>
+          <p id="descri" style="color: aquamarine; font-size: 15px;">Facturacion</p>
+        </div>
         <div class="card" id="card-siu" style="background-color: lavender;">
-          <h1 style="color: blue; font-size: 15px;"> Envio productos express</h1>
-          <!--<h1 style="color: black; font-size: 20px;">35 minutos promedio</h1>-->
+          <h1 style="color: blue; font-size: 15px;"> Envio Productos Express <h1
+              style="font-size: 12px; margin: -20px 0px 1px 189px;" id="prome">35 Mins Promedio</h1>
+          </h1>
           <br>
           </td>
         </div>
@@ -26,9 +41,9 @@
           <br>
           <div class="card" id="resumendecompra" style="background-color: lavender;">
             <div class="card-body">
-              <h5 id="titlecard">Acetaminofen</h5>
-              <h5 id="x">x10</h5>
-              <h5 id="ref">Ref: 104578</h5>
+              <h5 id="titlecard" style="font-weight: bold; font-size: 25px;">Acetaminofen</h5>
+              <h5 id="x" style="font-weight: bold; font-size: 25px;">x10</h5>
+              <h5 id="ref" style="color: gray;">Ref: 104578</h5>
               <img src="IMG/Acetaminofen.png" class="met_img" alt="">
               <img src="IMG/bas.png" class="basu_img" alt="">
             </div>
@@ -45,48 +60,58 @@
             </div>
           </div>
         </div>
-             <div class="container" id="resu" style="background-color:lavender;">
-                <h1 id="resumen">Resumen de pedido</h1>
-                <div class="card" id="descu" style="background-color: rgb(143, 143, 245);">
-                  <h1 style="color: rgb(255, 255, 255); font-size: 13px; text-align: center;" id="des">Desde 20.000$
-                  </h1>
-                  <h1 style="color: rgb(255, 255, 255); font-size: 13px; text-align: center;" id="ahorro">Ahorrarias:
-                    5500$</h1>
-                  <button type="AA" id="btn-quiero">Quiero ahorrar</button>
-                </div>
-                  <button id="btn-canje" style="font-size: 12px;">Canjear</button>
-                  <input type="text" id="cupon" placeholder="Inserte Un Cupon"></input>
-                  <img src="IMG/percentage.png" class="porce" alt="">
-                  <br>
-                  <br>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                        value="option2">
-                    <label class="form-check-label" for="exampleRadios2">
-                        Tengo un cupon
-                    </label>
-                </div>
-                  <h1 id="separar">----------------------</h1>
-                  <h1 style="font-size: 15px;" id="prod">Costos de producto</h1>
-                  <h1 style="font-size: 15px; text-align-last: right;" id="value">$60.000</h1>
-                  <h1 id="separar1">----------------------</h1>
-                  <h1 style="font-size: 15px;" id="cantp">Cantidad del producto</h1>
-                  <div class="cuadrado"> 
-                    <p>12</p>
-                  </div>
-                  <h1 id="separar2">----------------------</h1>
-                </div>
-              </div>
-            </div>
+        <div class="container" id="resu" style="background-color:lavender;">
+          <h1 id="resumen">Resumen de pedido</h1>
+          <div class="card" id="descu" style="background-color: rgb(143, 143, 245);">
+            <h1 style="color: rgb(255, 255, 255); font-size: 13px; text-align: center;" id="des">Desde 20.000$
+            </h1>
+            <h1 style="color: rgb(255, 255, 255); font-size: 13px; text-align: center;" id="ahorro">Ahorrarias:
+              5500$</h1>
+            <button type="AA" id="btn-quiero" style="font-size: 12px; font-weight: bold;">Quiero ahorrar</button>
           </div>
+          <button id="btn-canje" style="font-size: 12px;">Canjear</button>
+          <input type="text" id="cupon" placeholder="Inserte Un Cupon"></input>
+          <img src="IMG/percentage.png" class="porce" alt="">
+          <br>
+          <br>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Tengo un cupon
+            </label>
+          </div>
+          <h1 id="separar">----------------------</h1>
+          <h1 style="font-size: 15px;" id="prod">Costos de producto</h1>
+          <h1 style="font-size: 15px; text-align-last: right;" id="value">$60.000</h1>
+          <h1 id="separar1">----------------------</h1>
+          <h1 style="font-size: 15px;" id="cantp">Cantidad del producto</h1>
+          <div class="container" id="cuadro">
+            <p>12</p>
+          </div>
+          <h1 id="separar2">----------------------</h1>
+          <h1 style="font-size: 15px;" id="costo">Costo De Domicilio</h1>
+          <h1 style="font-size: 15px; text-align-last: right;" id="vado">$5.500</h1>
+          <h1 id="separar2">----------------------</h1>
+          <h1 style="font-size: 20px;" id="total">TOTAL</h1>
+          <h1 style="font-size: 20px; text-align-last: right;" id="tova">$65.000</h1>
+          <button
+            style="font-size: 15px; font-weight: bold; color: rgb(75, 132, 255); background-color: rgb(187, 187, 255)"
+            id="btn-pagar">IR A PAGAR</button>
+          <button style="color: red; font-weight: bold; font-size: 15px; background-color: rgb(187, 187, 255);"
+            id="btn-cance">CANCELAR</button>
+
         </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <img src="" alt="">
 
-
-        <img src="IMG/suma.png" class="suma_img" alt="">
-        <img src="IMG/moto_mami.png" class="moto_img" alt="">
-        <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
-          crossorigin="anonymous"></script>
-        <script type="importmap">
+  <img src="IMG/suma.png" class="suma_img" alt="">
+  <img src="IMG/moto_mami.png" class="moto_img" alt="">
+  <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
+    crossorigin="anonymous"></script>
+  <script type="importmap">
     {
       "imports": {
         "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js",
@@ -95,7 +120,7 @@
     }
     </script>
 
-        <script src="js/app.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 
