@@ -61,3 +61,70 @@
 #TotalN {
     font-weight: 600;
 }
+
+#lider {
+    margin: 80px 0px 0px 100px;
+}
+
+#cuadro1 {
+    margin: -23px 20px -17px 195px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: rgb(0, 102, 255);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#cuadro2 {
+    margin: -40px 27px 41px 492px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: rgb(0, 102, 255);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#cuadro3 {
+    margin: -80px 27px 71px 773px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: rgb(223, 223, 223);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#cuadrola1 {
+    margin: -40px 3px -38px 225px;
+    width: 295px;
+    height: 33px;
+    border-radius: 100px;
+    background: rgb(143, 181, 238);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+
+}
+
+#cuadrola2 {
+    margin: -2px 0px 7px 505px;
+    width: 280px;
+    height: 33px;
+    border-radius: 100px;
+    background: rgb(143, 181, 238);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+
+}
+#resu{
+    margin: 131px 0px 0px 0px;
+}
+#recu{
+    margin: 0px 0px 0px -50px;
+}

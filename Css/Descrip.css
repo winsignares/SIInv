@@ -153,7 +153,7 @@
 }
 
 #maximo {
-    margin: 110px 0px 0px 85px;
+    margin: 40px 0px 0px 85px;
 }
 
 #costo {
@@ -190,7 +190,7 @@
 }
 
 #cuadro1 {
-    margin: -23px 20px -17px 290px;
+    margin: -23px 20px -17px 195px;
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -201,23 +201,47 @@
 }
 
 #cuadro2 {
-    margin: -41px 27px 42px 531px;
+    margin: -40px 27px 41px 492px;
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background: rgb(0, 102, 255);
+    background: rgb(187, 224, 255);
     border-color: rgb(0, 0, 0);
     font-size: 25px;
     color: aliceblue;
 }
 
 #cuadro3 {
-    margin: -81px 27px 86px 760px;
+    margin: -80px 27px 71px 773px;
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background: rgb(0, 102, 255);
+    background:  rgb(223, 223, 223);
     border-color: rgb(0, 0, 0);
     font-size: 25px;
     color: aliceblue;
+}
+
+#cuadrola1 {
+    margin: -40px 3px -38px 225px;
+    width: 295px;
+    height: 33px;
+    border-radius: 100px;
+    background: rgb(143, 181, 238);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+
+}
+
+#cuadrola2 {
+    margin: -2px 0px 7px 505px;
+    width: 280px;
+    height: 33px;
+    border-radius: 100px;
+    background:rgb(223, 223, 223);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+
 }
