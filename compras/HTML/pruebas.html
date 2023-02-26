@@ -12,27 +12,23 @@
 
     <link rel="stylesheet" href="../CSS/estilos.css">
 
-    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-
-            <div class="logo">
-                <h1>Logotipo</h1>
-            </div>
             <div class="btn-menu">
                 <label for="btn-menu">☰</label>
+            </div>
+            <div class="logo">
+                <h1>Logotipo</h1>
             </div>
             <nav class="menu">
                 <a href="#">Inicio</a>
                 <a href="#">Nosotros</a>
                 <a href="#">Blog</a>
-                <a href="#">Contacto</a>                
-            </nav>            
+                <a href="#">Contacto</a>
+            </nav>
         </div>
     </header>
     <div class="capa"></div>
@@ -41,36 +37,34 @@
     <div class="container-menu">
         <div class="cont-menu">
             <nav>
-                <a href="#">Portafolio</a>
-                <a href="#">Servicios</a>
-                <a href="#">Suscribirse</a>
-                <a href="#">Facebook</a>
-                <a href="#">Youtube</a>
-                <a href="#">Instagram</a>
+                <!-- Elementos generados a partir del JSON -->
+                <aside class="col-sm-4">
+                    <h2>Carrito</h2>
+                    <!-- Elementos del carrito -->
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    <!-- Precio total -->
+                    <p class="text-right">Total: <span id="total"></span>&euro;</p>
+                    <button id="boton-vaciar" class="btn btn-danger">Cancelar compras</button>
+                </aside>
+                <!-- Carrito -->
+
             </nav>
-            <label for="btn-menu">✖️</label>
-        </div>
-    </div>
-<br><br><br><br><br> <!--Space-->
-    <div class="container body">
-        <div class="row">
-            <!-- Elementos generados a partir del JSON -->
-            <main id="items" class="col-sm-8 row"></main>
-            <!-- Carrito -->
-            <aside class="col-sm-4">
-                <h2>Carrito</h2>
-                <!-- Elementos del carrito -->
-                <ul id="carrito" class="list-group"></ul>
-                <hr>
-                <!-- Precio total -->
-                <p class="text-right">Total: <span id="total"></span>&euro;</p>
-                <button id="boton-vaciar" class="btn btn-danger">Cancelar compras</button>
-            </aside>
+            <label for="btn-menu">✖️</label><!---->
         </div>
     </div>
 
+    <br><br><br><br><br> <!--Space-->
+
+
+
     <div class="container my-5">
         <div class="bg-light p-5 rounded">
+
+            <!-- Products -->
+            <main id="items" class="row"></main>
+
+            <br>
             <div class="col-sm-8 py-5 mx-auto">
                 <h1 class="display-5 fw-normal">Navbar with offcanvas examples</h1>
                 <p class="fs-5">This example shows how responsive offcanvas menus work within the navbar. For

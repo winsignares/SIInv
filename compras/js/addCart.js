@@ -54,9 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
             miNodoTitle.classList.add('card-title');
             miNodoTitle.textContent = info.nombre;
             // Imagen
-            const miNodoImagen = document.createElement('img');
+            /*const miNodoImagen = document.createElement('img');
             miNodoImagen.classList.add('img-fluid');
-            miNodoImagen.setAttribute('src', info.imagen);
+            miNodoImagen.setAttribute('src', info.imagen);*/
             // Precio
             const miNodoPrecio = document.createElement('p');
             miNodoPrecio.classList.add('card-text');
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             miNodoBoton.setAttribute('marcador', info.id);
             miNodoBoton.addEventListener('click', anyadirProductoAlCarrito);
             // Insertamos
-            miNodoCardBody.appendChild(miNodoImagen);
+            /*miNodoCardBody.appendChild(miNodoImagen);*/
             miNodoCardBody.appendChild(miNodoTitle);
             miNodoCardBody.appendChild(miNodoPrecio);
             miNodoCardBody.appendChild(miNodoBoton);
