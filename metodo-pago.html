@@ -52,8 +52,8 @@
                             <tr>
 
                                 <div class="card">
-                                    <div class="form-check">
-                                        <a href="medios-pagos.html"> <input class="form-check-input" type="radio" name="exampleRadios"
+                                    
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
                                             id="exampleRadios1" value="option1">
                                         <label class="form-check-label" for="exampleRadios1">
                                             Tarjeta de Credito o Debito
@@ -121,19 +121,19 @@
     }
     </script>
 
-    <script>
-        function abrir() {
-          document.getElementById("medio-pago").style.display="block";
-        }     
-        window.onload = function cerrarpredeterminado() {
-          document.getElementById("medio-pago").style.display="none";
-        }
-        function cerrar() {
-          document.getElementById("medio-pago").style.display="none";
-        }
+      <script>
+        // Obtener el elemento del checkbox
+        const checkbox = document.getElementById('exampleRadios1');
+        
+        // Agregar un escucha de evento para el clic del checkbox
+        checkbox.addEventListener('click', () => {
+          // Verificar si el checkbox está marcado
+          if (checkbox.checked) {
+            // Si está marcado, abrir el archivo HTML en una nueva pestaña del navegador
+            window.open('Description-pago.html', 'width = 100%,height = 100%');
+          }
+        });
       </script>
-
-        <script src="js/app.js"></script>
 
 </body>
 

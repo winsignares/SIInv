@@ -13,14 +13,32 @@
     font-size: 28px;
 }
 h1{
-    margin: 22px 0px 0px 66px;
+    margin: 18px 0px -23px 66px;
     font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(146, 146, 146, 0.822);
 }
 p{
-    margin: 8px 0px 0px 66px;
+    margin: 10px 0px 0px 66px;
     font-size: 13px;
 }
+
 #colaborador{
     margin: 72px 0px 0px 290px;
-    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+#colaboradorlogo {
+    margin: -60px 0px 0px 427px;
+    width: 50px;
+    height: 30px;
+}
+#circuloinfo{
+    margin: -483px 0px 0px 772px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: #2d90e5;
+    border: #2d90e5
 }
