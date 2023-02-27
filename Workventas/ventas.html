@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Ni idea -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tablas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js "></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <!-- Default theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css" />
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
+</head>
+
+<body>
+    <!-- Columnas -->
+    <div class="container">
+        <div class="row">
+            <div class="col order-5">
+                <!-- grafica -->
+                <table class="table">
+                    <thead>
+                    </thead>
+                    <tbody id="grafiaca">
+                        <!-- desde aca -->
+                        <style>
+                            .chart-wrap {
+                                --chart-width: 420px;
+                                --grid-color: #aaa;
+                                --bar-color: #35b5f1;
+                                --bar-thickness: 40px;
+                                --bar-rounded: 3px;
+                                --bar-spacing: 10px;
+                                font-family: sans-serif;
+                                width: var(--chart-width);
+                            }
+                            
+                            .chart-wrap .title {
+                                font-weight: bold;
+                                padding: 1.8em 0;
+                                text-align: center;
+                                white-space: nowrap;
+                            }
+                            /* cuando definimos el gráfico en horizontal, lo giramos 90 grados */
+                            
+                            .chart-wrap.horizontal .grid {
+                                transform: rotate(-90deg);
+                            }
+                            
+                            .chart-wrap.horizontal .bar::after {
+                                /* giramos las letras para horizontal*/
+                                transform: rotate(45deg);
+                                padding-top: 0px;
+                                display: block;
+                            }
+                            
+                            .chart-wrap .grid {
+                                margin-left: 50px;
+                                position: relative;
+                                padding: 5px 0 5px 0;
+                                height: 100%;
+                                width: 100%;
+                                border-left: 2px solid var(--grid-color);
+                            }
+                            /* posicionamos el % del gráfico*/
+                            
+                            .chart-wrap .grid::before {
+                                font-size: 0.8em;
+                                font-weight: bold;
+                                content: '0%';
+                                position: absolute;
+                                left: -0.5em;
+                                top: -1.5em;
+                            }
+                            
+                            .chart-wrap .grid::after {
+                                font-size: 0.8em;
+                                font-weight: bold;
+                                content: '100%';
+                                position: absolute;
+                                right: -1.5em;
+                                top: -1.5em;
+                            }
+                            /* giramos las valores de 0% y 100% para horizontal */
+                            
+                            .chart-wrap.horizontal .grid::before,
+                            .chart-wrap.horizontal .grid::after {
+                                transform: rotate(90deg);
+                            }
+                            
+                            .chart-wrap .bar {
+                                width: var(--bar-value);
+                                height: var(--bar-thickness);
+                                margin: var(--bar-spacing) 0;
+                                background-color: var(--bar-color);
+                                border-radius: 0 var(--bar-rounded) var(--bar-rounded) 0;
+                            }
+                            
+                            .chart-wrap .bar:hover {
+                                opacity: 0.7;
+                            }
+                            
+                            .chart-wrap .bar::after {
+                                content: attr(data-name);
+                                margin-left: 100%;
+                                padding: 10px;
+                                display: inline-block;
+                                white-space: nowrap;
+                            }
+                        </style>
+                        </head>
+
+                        <body>
+
+                            <div class="chart-wrap horizontal">
+
+                                <div class="title">Gráfico</div>
+
+                                <div class="grid">
+                                    <div id="bar1" class="bar" style="--bar-value:0%;" data-name="" title="bar1"></div>
+                                    <div id="bar2" class="bar" style="--bar-value:0%;" data-name="" title="bar2"></div>
+                                    <div id="bar3" class="bar" style="--bar-value:0%;" data-name="" title="bar3"></div>
+                                    <div id="bar4" class="bar" style="--bar-value:0%;" data-name="" title="bar4"></div>
+                                    <div id="bar5" class="bar" style="--bar-value:0%;" data-name="" title="bar5"></div>
+                                    <div id="bar6" class="bar" style="--bar-value:0%;" data-name="" title="bar6"></div>
+                                    <div id="bar7" class="bar" style="--bar-value:0%;" data-name="" title="bar7"></div>
+                                    <div id="bar8" class="bar" style="--bar-value:0%;" data-name="" title="bar8"></div>
+                                </div>
+                            </div>
+                            <br>
+                            <!-- hasta aca -->
+                            <div class="gap-3 d-md-flex justify-content-md-center mb-3">
+                                <button type="button" class="btn btn-primary btn-lg" onclick="fecha1() ,barritas()">START</button>
+                            </div>
+                    </tbody>
+                </table>
+            </div>
+            <!-- parte del imagen y los datos -->
+            <div class="col order-1">
+                <div class="mb-3 row">
+                    <img src="img/images.jpg">
+                    </img>
+                </div>
+                <hr>
+                <label class="col-sm-6 col-form-label">Total Aproximado</label>
+                <label class="col-sm-8 col-form-label">Cantidad De Ingresos:</label>
+                <div class="mb-3 row">
+                    <label id="1" class="col-sm-2 col-form-label ">Fecha</label>
+                    <label id="2" class="col-sm-2 col-form-label ">Mes</label>
+                    <label id="3" class="col-sm-4 col-form-label ">Descripcion</label>
+                    <label id="4" class="col-sm-2 col-form-label ">Monto</label>
+                    <hr>
+                    <label id="A" class="col-sm-8 col-form-label">Ganancias$:</label>
+                    <hr>
+                </div>
+                <label class="col-sm-6 col-form-label">Total Aproximado</label>
+                <label class="col-sm-8 col-form-label">Cantidad De Egresos:</label>
+                <div class="mb-3 row">
+                    <label id="5" class="col-sm-2 col-form-label ">Fecha</label>
+                    <label id="6" class="col-sm-2 col-form-label ">Mes</label>
+                    <label id="7" class="col-sm-4 col-form-label ">Descripcion</label>
+                    <label id="8" class="col-sm-2 col-form-label ">Monto</label>
+                    <hr>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js " crossorigin="anonymous "></script>
+    <script type="importmap ">
+        { "imports ": { "@popperjs/core ": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js ", "bootstrap ": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.esm.min.js " } }
+    </script>
+    </body>
+    <script src="js/app2.js">
+    </script>
+
+</html>
