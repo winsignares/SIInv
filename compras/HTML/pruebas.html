@@ -45,12 +45,18 @@
                     <hr>
                     <!-- Precio total -->
                     <p class="text-right">Total: <span id="total"></span>&euro;</p>
-                    <button id="boton-vaciar" class="btn btn-danger">Cancelar compras</button>
+                    <div>
+                        <a href="./cart.html" class="btn btn-primary">Comprar ahora</a>
+                        <button id="boton-vaciar" class="btn btn-danger">Cancelar compras</button>
+                        <!--<button id="boton-cambiarPag" class="btn btn-primary"></button-->
+
+                    </div>
+
                 </aside>
                 <!-- Carrito -->
 
             </nav>
-            <label for="btn-menu">✖️</label><!---->
+            <!--<label for="btn-menu">✖️</label>-->
         </div>
     </div>
 
@@ -58,11 +64,11 @@
 
 
 
-    <div class="container my-5">
-        <div class="bg-light p-5 rounded">
+    <div class="container my-7">
+        <div id="bg-list" class="bg-light p-5 rounded">
 
             <!-- Products -->
-            <main id="items" class="row"></main>
+            <main id="items" class="list-group"></main>
 
             <br>
             <div class="col-sm-8 py-5 mx-auto">
