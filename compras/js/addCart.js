@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-
+let img='';
     const baseDeDatos = [
         {
             id: 1,
             nombre: 'Patata',
             precio: 1,
-            imagen: 'https://static.barcelo.com/content/dam/bpt/posts/2019/6/frutas-exoticas.jpg'
+            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5yx8T00JxnB9CYR5SnDfbzDFUmWRG24Y_ImD2emffjA&s'
         },
         {
             id: 2,
@@ -54,9 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
             miNodoTitle.classList.add('card-title');
             miNodoTitle.textContent = info.nombre;
             // Imagen
-            /*const miNodoImagen = document.createElement('img');
+            const miNodoImagen = document.createElement('img');
             miNodoImagen.classList.add('img-fluid');
-            miNodoImagen.setAttribute('src', info.imagen);*/
+            miNodoImagen.setAttribute('src', info.imagen);
             // Precio
             const miNodoPrecio = document.createElement('p');
             miNodoPrecio.classList.add('card-text');
