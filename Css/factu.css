@@ -1,0 +1,22 @@
+.container {
+    margin: 88px 0px 0px 173px;
+    width: 835px;
+    height: 479px;
+    border: 1px solid #a9a9a9;
+    border-radius: 10px;
+    background-color: #a9a9a94a;
+}
+#mensaje{
+    color: #2d90e5;
+    margin: 42px 0px -58px 338px;
+    font-weight: bold;
+    font-size: 28px;
+}
+h1{
+    margin: 22px 0px 0px 66px;
+    font-size: 19px;
+}
+p{
+    margin: 8px 0px 0px 66px;
+    font-size: 13px;
+}
