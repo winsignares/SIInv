@@ -53,14 +53,14 @@
 
                                 <div class="card">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                        <a href="medios-pagos.html"> <input class="form-check-input" type="radio" name="exampleRadios"
                                             id="exampleRadios1" value="option1">
                                         <label class="form-check-label" for="exampleRadios1">
                                             Tarjeta de Credito o Debito
                                             <img src="IMG/visa.jpg" class="visa" alt="">
                                             <img src="IMG/mastercard.jpg" class="masterd" alt="">
                                             <img src="IMG/pse.jpg" class="pse" alt="">
-                                        </label>
+                                        </label> </a> 
                                     </div>
                                 </div>
                             </tr>
@@ -120,6 +120,18 @@
       }
     }
     </script>
+
+    <script>
+        function abrir() {
+          document.getElementById("medio-pago").style.display="block";
+        }     
+        window.onload = function cerrarpredeterminado() {
+          document.getElementById("medio-pago").style.display="none";
+        }
+        function cerrar() {
+          document.getElementById("medio-pago").style.display="none";
+        }
+      </script>
 
         <script src="js/app.js"></script>
 
