@@ -89,6 +89,7 @@
     font-weight: bold;
 }
 h1 {
+    color: rgb(124, 123, 123);
     margin: 0px 0px -21px 45px;
     font-size: 18px;
 }
@@ -99,6 +100,7 @@ p {
 #envioinfo {
     margin: -26px 0px 26px 91px;
     font-size: 18px;
+    color: rgb(117, 116, 116);
 }
 #oferta {
     margin: 0px 0px 0px 0px;
@@ -108,4 +110,34 @@ p {
 }
 #lineacorreo {
     margin: 0px 0px 21px 81px;
+}
+.tooltip {
+	color: blue;
+	left: 7%;
+	top: 90%;
+}
+
+.tooltip:hover .tooltip-box {
+	display: inline-block;/*muestra el numero*/
+	font-size: 18px;
+}
+
+
+
+
+.tooltip-box {
+	display: none;
+	
+	line-height: 45px;
+	z-index: 500;
+	color: black;
+	font-size: 5px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	left: 4%;
+	bottom: 30px;
+	cursor: pointer;
+    background-color: darkgray;
+    margin: 30px 0px px 0px;
+	
 }
