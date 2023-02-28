@@ -107,12 +107,19 @@
 }
 
 #circuloinfo {
-    margin: -470px 0px 0px 775px;
+    margin: -490px 0px 0px 775px;
     width: 40px;
     height: 40px;
     border-radius: 100px;
-    background: #2d90e5;
-    border: #2d90e5
+    background: #5eb4ff;
+    border-color: rgb(0, 0, 0);
+}
+
+#signo {
+    margin: 20px 0px 0px 14px;
+    font-size: 25px;
+    font-weight: bold;
+
 }
 
 
@@ -208,12 +215,7 @@
     font-weight: bold;
     color: rgba(146, 146, 146, 0.822);
 }
-#lado-d-l-5 {
-    /*Letras pequeñas del lado derecho; Recibir novedades check box*/
-    margin: 20px 0px -1px 450px;
-    font-size: 13px;
-    font-weight: bold;
-}
+
 
 
 /*LETRAS PEQUEÑAS LADO IZQUIERDO*/
@@ -265,8 +267,18 @@
 
 #exampleRadios3 {
     /*Icono de la bolita*/
-    margin: 0px 0px 0px 440px;
+    margin: 0px 0px 0px 445px;
+    width: 21px;
+    height: 21px;
 }
+
+#lado-d-l-5 {
+    /*Letras pequeñas del lado derecho; Recibir novedades check box*/
+    margin: 20px 0px -1px 475px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
 #btn-guar {
     margin: 20px 0px -1000px 550px;
     height: 30px;
@@ -277,6 +289,7 @@
     border-color: rgb(36, 124, 255);
     font-weight: bold;
 }
+
 #btn-finish {
     margin: 10px 0px -1000px 550px;
     height: 35px;
