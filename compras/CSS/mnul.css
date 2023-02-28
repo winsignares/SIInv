@@ -9,10 +9,15 @@
 background-color: #1f1f1f;
 
 }
-div img{
+
+.img-fluid {
+ position: relative;
+}
+
+.carrito-de-compras{
 width: 100px;
 height:100px ;
-position: relative;
+position: absolute;
 left: 50%;
 top: 20%;
 transform: translate(-50%,-50%);
