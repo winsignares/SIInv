@@ -1,289 +1,77 @@
 .container {
-    margin: 88px 0px 0px 173px;
-    width: 835px;
-    height: 479px;
+    margin: 184px 0px 0px 290px;
+    width: 1500px;
+    height: 565px;
     border: 1px solid #a9a9a9;
     border-radius: 10px;
     background-color: #a9a9a94a;
 }
 
 #mensaje {
+    margin: 184px 0px -225px 434px;
     color: #2d90e5;
-    margin: 42px 0px -58px 338px;
     font-weight: bold;
     font-size: 28px;
 }
 
-
-
-/*TITULOS DEL LADO DERECHO*/
-#lado-i-t {
-    /*Titulo 1; Empresa*/
-    margin: 18px 0px -23px 66px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgba(146, 146, 146, 0.822);
-}
-
-#lado-i-t-2 {
-    /*Titulo 2; NIT*/
-    margin: 25px 0px -23px 66px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgba(146, 146, 146, 0.822);
-}
-
-#lado-i-t-3 {
-    /*Titulo 3; Fecha y hora*/
-    margin: 60px 0px -23px 66px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgba(146, 146, 146, 0.822);
-}
-
-#lado-i-t-4 {
-    /*Titulo 4; Num recibido*/
-    margin: 50px 0px -13px 66px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgba(146, 146, 146, 0.822);
-}
-
-#lado-i-t-5 {
-    /*Titulo 4; Descripcion*/
-    margin: -90px 0px -23px 66px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgba(146, 146, 146, 0.822);
-}
-
-
-/*RAYAS DEL LADO IZQUIERDO*/
-#lado-i-r-1 {
-    /*Raya del lado izquierdo 1*/
-    margin: -23px 0px 15px 59px;
-    font-size: 13px;
-}
-
-#lado-i-r-2 {
-    /*Raya del lado izquierdo 2*/
-    margin: -23px 0px 15px 59px;
-    font-size: 13px;
-}
-
-#lado-i-r-3 {
-    /*Raya del lado izquierdo 3*/
-    margin: -20px 0px 15px 59px;
-    font-size: 13px;
-}
-
-#lado-i-r-4 {
-    /*Raya del lado izquierdo 4*/
-    margin: -20px 0px 15px 59px;
-    font-size: 13px;
-}
-
-#lado-i-r-5 {
-    /*Raya del lado izquierdo 5*/
-    margin: 10px 0px 15px 59px;
-    font-size: 13px;
-}
-
 #colaborador {
-    margin: 72px 0px 0px 290px;
+   margin: 0px 0px 0px 475px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
+    font-family: math;
+    font-weight: bold;
 }
 
 #colaboradorlogo {
-    margin: -60px 0px 0px 427px;
+    margin: -47px 0px 0px 643px;
     width: 50px;
     height: 30px;
 }
 
 #circuloinfo {
-    margin: -490px 0px 0px 775px;
-    width: 40px;
-    height: 40px;
+    margin: 15px 0px -60px 1236px;
+    width: 60px;
+    height: 60px;
     border-radius: 100px;
     background: #5eb4ff;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(0, 146, 190);
 }
 
 #signo {
-    margin: 20px 0px 0px 14px;
-    font-size: 25px;
+    margin: -20%;
+    font-size: 48px;
     font-weight: bold;
 
-}
-
-
-
-/*RAYAS DEL LADO DERECHO*/
-#lado-d-r-1 {
-    /*Raya del lado derecho; Ref pago*/
-    margin: -30px 0px 0px 445px;
-    font-size: 13px;
-}
-
-#lado-d-r-2 {
-    /*Raya 2 de el lado derecho; IP*/
-    margin: -58px 0px 0px 445px;
-    font-size: 13px;
-}
-
-#lado-d-r-3 {
-    /*Raya 3 de el lado derecho; CUS*/
-    margin: -45px 0px 0px 445px;
-    font-size: 13px;
-}
-
-#lado-d-r-4 {
-    /*Raya 3 de el lado derecho; CUS*/
-    margin: -48px 0px 0px 510px;
-    font-size: 13px;
-}
-
-
-/*TITULOS DEL LADO DERECHO*/
-#lado-d-t-1 {
-    /*Titulo del lado derecho 1*/
-    margin: -40px 0px 0px 450px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgba(146, 146, 146, 0.822);
-}
-
-#lado-d-t-2 {
-    /*Titulo del lado derecho 2*/
-    margin: -40px 0px 0px 450px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgba(146, 146, 146, 0.822);
-}
-
-#lado-d-t-3 {
-    /*Titulo del lado derecho 3*/
-    margin: -40px 0px 0px 450px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgba(146, 146, 146, 0.822);
-}
-
-#lado-d-t-4 {
-    /*Titulo del lado derecho 4*/
-    margin: -20px 0px 0px 510px;
-    font-size: 13px;
-}
-
-
-
-
-
-/*LETRAS PEQUEÑAS LADO DERECHO*/
-#lado-d-l-1 {
-    /*Letras pequeñas del lado derecho; Ref: Pago*/
-    margin: 90px 0px 0px 450px;
-    font-size: 13px;
-}
-
-#lado-d-l-2 {
-    /*Letras pequeñas del lado derecho; IP*/
-    margin: 400px 0px 0px 450px;
-    font-size: 13px;
-}
-
-#lado-d-l-3 {
-    /*Letras pequeñas del lado derecho; CUS*/
-    margin: 20px 0px -1px 450px;
-    font-size: 13px;
-}
-
-#lado-d-l-4 {
-    /*Letras pequeñas del lado derecho; Enviamelo*/
-    margin: 1px 0px 0px 525px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgba(146, 146, 146, 0.822);
-}
-
-
-
-/*LETRAS PEQUEÑAS LADO IZQUIERDO*/
-#lado-i-l {
-    /*Letra 1 de las pequeñas; Drogueria*/
-    margin: -20px 0px 0px 65px;
-    font-size: 13px;
-}
-
-#lado-i-l-2 {
-    /*Letra 2 de las pequeñas; Num NIT*/
-    margin: -30px 0px 15px 65px;
-    font-size: 13px;
-}
-
-#lado-i-l-3 {
-    /*Letra 3 de las pequeñas; Fecha y hora*/
-    margin: -10px 0px -38px 65px;
-    font-size: 13px;
-}
-
-#lado-i-l-4 {
-    /*Letra 4 de las pequeñas; Num recibido*/
-    margin: -10px 0px -38px 65px;
-    font-size: 13px;
-}
-
-#lado-i-l-5 {
-    /*Letra 5 de las pequeñas; Referencia*/
-    margin: -10px 0px -38px 65px;
-    font-size: 13px;
 }
 
 #img {
-    margin: -5px 0px 0px -130px;
+    /*margin: -5px 0px 0px -130px;*/
     width: 30px;
     height: 30px;
 }
 
 #btn-enviar {
-    margin: 0px 0px 0px 190px;
+   /* margin: 0px 0px 0px 190px;*/
     height: 30px;
-    width: 90px;
+    width: 100px;
     border-radius: 40px;
     background-color: rgb(0, 132, 255);
     font-size: 13px;
     border: rgb(208, 255, 36);
 }
 
-#exampleRadios3 {
-    /*Icono de la bolita*/
-    margin: 0px 0px 0px 445px;
-    width: 21px;
-    height: 21px;
-}
-
-#lado-d-l-5 {
-    /*Letras pequeñas del lado derecho; Recibir novedades check box*/
-    margin: 20px 0px -1px 475px;
-    font-size: 13px;
-    font-weight: bold;
+#checkbox {
+    /*checkbox de la ferta*/
+    margin: -6px 8px 0px 24px;
+    width: 30px;
+    height: 30px;
 }
 
 #btn-guar {
-    margin: 20px 0px -1000px 550px;
-    height: 30px;
-    width: 150px;
-    border-radius: 40px;
+    margin: 20px 0px 0px 174px;
+    height: 40px;
+    width: 190px;
+    border-radius: 15px;
     background-color: rgb(255, 255, 255);
     font-size: 13px;
     border-color: rgb(36, 124, 255);
@@ -291,12 +79,65 @@
 }
 
 #btn-finish {
-    margin: 10px 0px -1000px 550px;
-    height: 35px;
-    width: 150px;
-    border-radius: 40px;
+    margin: 10px 0px 0px 174px;
+    height: 40px;
+    width: 190px;
+    border-radius: 15px;
     background-color: rgb(0, 102, 255);
     font-size: 13px;
     border: rgb(36, 124, 255);
     font-weight: bold;
+}
+h1 {
+    color: rgb(124, 123, 123);
+    margin: 0px 0px -21px 45px;
+    font-size: 18px;
+}
+p {
+    margin: 0px 0px 18px 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#envioinfo {
+    margin: -26px 0px 26px 91px;
+    font-size: 18px;
+    color: rgb(117, 116, 116);
+}
+#oferta {
+    margin: 0px 0px 0px 0px;
+    font-family: math;
+    font-size: 20px;
+    font-weight: bold;
+}
+#lineacorreo {
+    margin: 0px 0px 21px 81px;
+}
+.tooltip {
+	color: blue;
+	left: 7%;
+	top: 90%;
+}
+
+.tooltip:hover .tooltip-box {
+	display: inline-block;/*muestra el numero*/
+	font-size: 18px;
+}
+
+
+
+
+.tooltip-box {
+	display: none;
+	
+	line-height: 45px;
+	z-index: 500;
+	color: black;
+	font-size: 5px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	left: 4%;
+	bottom: 30px;
+	cursor: pointer;
+    background-color: darkgray;
+    margin: 30px 0px px 0px;
+	
 }
