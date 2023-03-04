@@ -18,7 +18,8 @@ body,
     align-items: center;
 }
 
-.modal { /*ESTA ES LA VENTANA EMERGENTE*/
+.modal {
+    /*ESTA ES LA VENTANA EMERGENTE*/
     position: fixed;
     top: 0;
     left: 0;
@@ -147,18 +148,79 @@ body,
 
 
 }
-#visa{/*IMG DE VISA*/
+
+#visa {
+    /*IMG DE VISA*/
     margin: 26px 0px 0px 57px;
     width: 47px;
     height: 29px;
 }
-#masterd{/*IMAGEN DE MASTERCARD*/
+
+#masterd {
+    /*IMAGEN DE MASTERCARD*/
     margin: 1px 0px -5px 126px;
     width: 57px;
     height: 42px;
 }
-#pse {/*IMAGEN DE PSE*/
-    margin: 10px 0px -5px 126px;
-    width: 57px;
+
+#pse {
+    /*IMAGEN DE PSE*/
+    margin: 10px 0px -5px 157px;
+    width: 48px;
     height: 42px;
+}
+
+#exampleRadios1 {
+    position: absolute;
+    top: 112px;
+    right: 524px;
+    width: 22px;
+    height: 27px;
+    cursor: pointer;
+}
+
+#exampleRadios2 {
+    position: absolute;
+    top: 112px;
+    right: 337px;
+    width: 22px;
+    height: 27px;
+    cursor: pointer;
+}
+
+#exampleRadios3 {
+    position: absolute;
+    top: 112px;
+    right: 124px;
+    width: 22px;
+    height: 27px;
+    cursor: pointer;
+}
+
+#rectangulo1 {
+    margin: -44px 0px 0px 10px;
+    width: 12px;
+    height: 43px;
+    background: rgb(194, 194, 194);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+}
+#rectangulo2 {
+    margin: -44px 0px 0px 195px;
+    width: 12px;
+    height: 43px;
+    background: rgb(194, 194, 194);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+}
+#rectangulo3 {
+    margin: -44px 0px 0px 410px;
+    width: 12px;
+    height: 43px;
+    background: rgb(194, 194, 194);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
 }
