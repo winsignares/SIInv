@@ -1,3 +1,4 @@
+//Esto es el codigo del carrusel
 const slides = document.querySelectorAll('.slide');
 const prev = document.querySelector('#prev');
 const next = document.querySelector('#next');
