@@ -52,9 +52,8 @@
                             <tr>
 
                                 <div class="card">
-                                    
-                                        <input class="form-check-input" type="radio" name="exampleRadios"
-                                            id="btn-modal" value="option1">
+                                    <div class="boton-modal">
+                                    <input type="checkbox" id="btn-modal" type="radio" value="option1" name="exampleRadios">
                                         <label class="lbl-modal" for="btn-modal">
                                             Tarjeta de Credito o Debito
                                             <img src="IMG/visa.jpg" class="visa" alt="">
@@ -68,7 +67,7 @@
                             <tr>
                                 <div class="card">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                        <input class="checkbox" type="radio" name="exampleRadios"
                                             id="exampleRadios2" value="option2">
                                         <label class="form-check-label" for="exampleRadios2">
                                             PayPal
@@ -81,7 +80,7 @@
                             <tr>
                                 <div class="card">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                        <input class="checkbox" type="radio" name="exampleRadios"
                                             id="exampleRadios3" value="option3">
                                         <label class="form-check-label" for="exampleRadios3">
                                             Efectivo
@@ -108,43 +107,47 @@
                 </div>
             </div>
         </div>
+                <!--Ventana Modal-->
 
-        <div class="modal" id="modal">
-            <div class="contenedor" id="contenedormodal">
-                <header>
-                    <div id="bolita-1"></div>
-                    <div id="bolita-2"></div>
-                    <div id="bolita-3"></div>
-                </header>
-                <div id="circulo"></div>
-                <label for="btn-modal" style="font-weight: bold;">X</label>
-                <div class="contenido">
-                    <div id="seleccion">
-                        <p style="font-size: 20px; font-weight: bold; color: black;">SELECCIONA PAGO</p>
-                        <div id="tarjetas">
-                            <img src="IMG/visa.jpg" alt="" id="visa">
-                            <img src="IMG/masterd.png" alt="" id="masterd">
-                            <img src="IMG/pse-removebg-preview.png" alt="" id="pse">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadiosm1"
-                                value="option1">
-                            <label class="form-check-label" for="exampleRadios1"></label>
-    
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadiosm2"
-                                value="option1">
-                            <label class="form-check-label" for="exampleRadios1"></label>
-    
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadiosm3"
-                                value="option1">
-                            <label class="form-check-label" for="exampleRadios1"></label>
-                            <div id="rectangulo1"></div>
-                            <div id="rectangulo2"></div>
-                            <div id="rectangulo3"></div>
-    
+                <div class="container-modal ">
+                    <div class="content-modal" id="modalcontenedor">
+                        <header>
+                            <div id="bolita-1"></div>
+                            <div id="bolita-2"></div>
+                            <div id="bolita-3"></div>
+                        </header>
+                        <div id="circulo"></div>
+                        <label for="btn-modal" style="font-weight: bold;">X</label>
+                        <div class="contenido">
+                            <div id="seleccion">
+                                <p style="font-size: 20px; font-weight: bold; color: black;">SELECCIONA PAGO</p>
+                                <div id="tarjetas">
+                                    <img src="IMG/visa.jpg" alt="" id="visa">
+                                    <img src="IMG/masterd.png" alt="" id="masterd">
+                                    <img src="IMG/pse-removebg-preview.png" alt="" id="pse">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadiosm1"
+                                        value="option1">
+                                    <label class="form-check-label" for="exampleRadiosm1"></label>
+            
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadiosm2"
+                                        value="option2">
+                                    <label class="form-check-label" for="exampleRadiosm1"></label>
+            
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadiosm3"
+                                        value="option3">
+                                    <label class="form-check-label" for="exampleRadiosm1"></label>
+                                    <div id="rectangulo1"></div>
+                                    <div id="rectangulo2"></div>
+                                    <div id="rectangulo3"></div>
+            
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        <!--Fin de la Ventana Modal-->
+    </div>
+
 
 
         <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
@@ -156,6 +159,15 @@
         "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.esm.min.js"
       }
     }
+    </script>
+
+    <script>
+        const openModal = document.querySelector("#btn-modal");
+
+        
+        openModal.addEventListener('click',()=>{
+            
+        })
     </script>
 
 </body>
