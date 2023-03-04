@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K44PTCT');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="robots" content="follow" />
+    <title>Droguería La Economica | Home</title>
+    <meta property="og:title" content="Droguería La Economica | Home" />
+    <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsp.depositphotos.com%2Fvector-images%2Fcruz-de-farmacia-verde-logo.html&psig=AOvVaw0mH-flK9PBZQ2c19gMTUNS&ust=1677263848865000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPCStf2krP0CFQAAAAAdAAAAABAD"
+    />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="google-site-verification" content="Usr2VmP4wCiBRj0Wkib516CFho3lferyBQSQqO3giYc" />
+</head>
+
+
+<link href="https://imperacore.net/css4/styles.css?v=4.3" rel="stylesheet">
+<link href="https://imperacore.net/css4/plugins.css?v=4.3" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://imperacore.net/assets/icon_logo.png" />
+
+<link rel="stylesheet" href="CSS/estilos.css">
+
+<body>
+
+    <div class="scroll-container">
+        <!-- End Google Tag Manager (noscript) -->
+        <div id="main">
+
+            <div id="header-cont">
+
+                <div id="header" class="max-width">
+                    <div id="top-menu">
+
+                        <a href="" style="position: relative;">
+                            <img src="https://imperacore.net/assets/logo.png" alt="" style="position: absolute; width: 130px; top: -17px; left:10px" />
+                        </a>
+                        <div class="autocomplete">
+                            <div class="search-cont">
+                                <div style="flex:1">
+                                    <form autocomplete=""><input id="txt-search" class="txt-search" placeholder="Buscar producto" /></form>
+                                </div>
+                                <button class="btn-search"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+
+                        <div id="top-items">
+
+
+                        </div>
+                        <div class="separator"></div>
+                        <div data-id="login" class="dropdown">
+
+                            <i class="fas fa-user"></i>
+                            <input type="checkbox" id="btn-modal">
+                            <label for="btn-modal" class="lbl-modal">Iniciar Sesion</label>
+                            <div class="modal">
+
+
+                                <h3>
+
+                                    <div class="contenedor__todo">
+                                        <div class="caja__trasera">
+                                            <div class="caja__trasera-login">
+                                                <h3>¿Ya tienes una cuenta?</h3>
+                                                <p>Inicia sesión para entrar en la página</p>
+                                                <button id="btn__iniciar-sesion" onclick="iniciarSesion()">Iniciar Sesión</button>
+                                            </div>
+                                            <div class="caja__trasera-register">
+                                                <h3>¿Aún no tienes una cuenta?</h3>
+                                                <p>Regístrate para que puedas iniciar sesión</p>
+                                                <button id="btn__registrarse" onclick="register()">Regístrarse</button>
+                                            </div>
+                                        </div>
+
+                                        <!--Formulario de Login y registro-->
+                                        <div class="contenedor__login-register">
+                                            <!--Login-->
+                                            <form action="" class="formulario__login">
+                                                <h2>Iniciar Sesión</h2>
+                                                <input type="text" placeholder="Correo Electronico">
+                                                <input type="password" placeholder="Contraseña">
+                                                <button onclick="entrarp()">Entrar</button>
+                                            </form>
+
+                                            <!--Register-->
+                                            <form action="" class="formulario__register">
+                                                <h2>Regístrarse</h2>
+                                                <input type="text" placeholder="Nombre completo">
+                                                <input type="text" placeholder="Correo Electronico">
+                                                <input type="text" placeholder="Usuario">
+                                                <input type="password" placeholder="Contraseña">
+                                                <button onclick="registro()">Regístrarse</button>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </h3>
+                            </div>
+
+
+                            <div class="dropdown-content">
+                                <div class="separator"></div>
+                                <div class="content" style="padding:0"></div>
+                            </div>
+                        </div>
+
+                        <div id="menu-cupones" data-id="cupones" style="cursor: pointer; display:none" onclick="showModal(true, $('#cupones'))">
+                            <div class="loadingio-spinner-dual-ring-fqefp1i98hq">
+                                <div class="ldio-vs7o6162g0h">
+                                    <div></div>
+                                    <div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="coupon-icon"><i class="fas fa-receipt" style="color:#ff2c6e;"></i></div>
+                            </div>
+                            <span id="cupdes">CUPONES</span>
+                        </div>
+
+                        <div data-id="cart" class="relative" style="cursor: pointer;" onclick="showCart()">
+                            <div id="cart-badge">0</div>
+                            <i class="fas fa-shopping-cart" style="color:#333;"></i>
+                            <span>CARRITO</span>
+                        </div>
+
+                    </div>
+                    <h1 style="display: none">Drogueria La Economia</h1>
+                    <h2 style="display: none">Realiza tu pedido sin salir de donde estás, nosotros te lo llevamos. En Droguería La Economía estamos Comprometidos con tu Bienestar.</h2>
+                </div>
+
+                <!-- menu -->
+                <div id="main-menu">
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger">Medicamentos</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger">Dermatologico</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger">Nutricion y vida saludable</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger">Costmeticos</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger">Dermocosmeticos</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger">Salud visual</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger">Mamás y bebés</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger">Higiene y Cuidado personal</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger">Alimentos y bebidas</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- CONTENEDOR DE PRODUCTOS JUNTOS -->
+            <div class="contenedor">
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://logymed.com.co/wp-content/uploads/2022/05/Logymed-Acetaminofen-Tabletas-100-Mg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Acetaminofen</h5>
+                        <p class="card-text">$22.999</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dicloxacilina</h5>
+                        <p class="card-text">$22.999</p>
+
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Amoxicilina</h5>
+                        <p class="card-text">$22.999</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://logymed.com.co/wp-content/uploads/2022/05/Logymed-Acetaminofen-Tabletas-100-Mg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Acetaminofen </h5>
+                        <p class="card-text">$12.999</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.farmalisto.com.co/148981-large_default/comprar-oceira-015-003-mg-oral-caja-con-21-tabletas-recubiertas-rx-precio.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Caja Oceira</h5>
+                        <p class="card-text">$12.999</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- CONTAINER DE PRODUCTOS -->
+
+            <section class="contenido">
+                <div class="mostrador" id="mostrador">
+                    <div class="fila">
+                        <div class="item" onclick="cargar(this)">
+                            <div class="contenedor-foto">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://logymed.com.co/wp-content/uploads/2022/05/Logymed-Acetaminofen-Tabletas-100-Mg.png" class="card-img-top" alt="..." alt="">
+                                    <h5 class="card-title">Acetaminofen</h5>
+                                    <p class="card-text">$22.999</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item" onclick="cargar(this)">
+                            <div class="contenedor-foto">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://jumbocolombiaio.vtexassets.com/arquivos/ids/459674-800-600?v=638108814164770000&width=800&height=600&aspect=true" class="card-img-top" alt="..." alt="">
+                                    <h5 class="card-title">Bonfiest plus </h5>
+                                    <p class="card-text">$14.000</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item" onclick="cargar(this)">
+                            <div class="contenedor-foto">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://logymed.com.co/wp-content/uploads/2022/05/Logymed-Acetaminofen-Tabletas-100-Mg.png" class="card-img-top" alt="..." alt="">
+                                    <h5 class="card-title">Acetaminofen</h5>
+                                    <p class="card-text">$22.999</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
