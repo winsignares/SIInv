@@ -47,7 +47,7 @@ body,
 }
 
 #btn-modal:checked~.modal .contenedor {
-    transform: translateY(-30%);
+    transform: translateY(-40%);
 }
 
 .contenedor header {

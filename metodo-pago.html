@@ -54,13 +54,13 @@
                                 <div class="card">
                                     
                                         <input class="form-check-input" type="radio" name="exampleRadios"
-                                            id="exampleRadios1" value="option1">
-                                        <label class="form-check-label" for="exampleRadios1">
+                                            id="btn-modal" value="option1">
+                                        <label class="lbl-modal" for="btn-modal">
                                             Tarjeta de Credito o Debito
                                             <img src="IMG/visa.jpg" class="visa" alt="">
                                             <img src="IMG/mastercard.jpg" class="masterd" alt="">
                                             <img src="IMG/pse.jpg" class="pse" alt="">
-                                        </label> </a> 
+                                        </label>
                                     </div>
                                 </div>
                             </tr>
@@ -109,6 +109,43 @@
             </div>
         </div>
 
+        <div class="modal" id="modal">
+            <div class="contenedor" id="contenedormodal">
+                <header>
+                    <div id="bolita-1"></div>
+                    <div id="bolita-2"></div>
+                    <div id="bolita-3"></div>
+                </header>
+                <div id="circulo"></div>
+                <label for="btn-modal" style="font-weight: bold;">X</label>
+                <div class="contenido">
+                    <div id="seleccion">
+                        <p style="font-size: 20px; font-weight: bold; color: black;">SELECCIONA PAGO</p>
+                        <div id="tarjetas">
+                            <img src="IMG/visa.jpg" alt="" id="visa">
+                            <img src="IMG/masterd.png" alt="" id="masterd">
+                            <img src="IMG/pse-removebg-preview.png" alt="" id="pse">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadiosm1"
+                                value="option1">
+                            <label class="form-check-label" for="exampleRadios1"></label>
+    
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadiosm2"
+                                value="option1">
+                            <label class="form-check-label" for="exampleRadios1"></label>
+    
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadiosm3"
+                                value="option1">
+                            <label class="form-check-label" for="exampleRadios1"></label>
+                            <div id="rectangulo1"></div>
+                            <div id="rectangulo2"></div>
+                            <div id="rectangulo3"></div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
             crossorigin="anonymous"></script>
@@ -120,20 +157,6 @@
       }
     }
     </script>
-
-      <script>
-        // Obtener el elemento del checkbox
-        const checkbox = document.getElementById('exampleRadios1');
-        
-        // Agregar un escucha de evento para el clic del checkbox
-        checkbox.addEventListener('click', () => {
-          // Verificar si el checkbox está marcado
-          if (checkbox.checked) {
-            // Si está marcado, abrir el archivo HTML en una nueva pestaña del navegador
-            window.open('Description-pago.html', 'width = 100%,height = 100%');
-          }
-        });
-      </script>
 
 </body>
 
