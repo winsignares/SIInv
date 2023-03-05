@@ -37,13 +37,14 @@ body,
 
 .contenedor {
     width: 600px;
-    height: 300px;
-    margin: auto;
+    height: 436px;
+    margin: 260px 0px 0px 44px;
     background: #fff;
     box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
     transition: all 500ms ease;
     position: relative;
     transform: translateY(-30%);
+    border-radius: 20px;
 }
 
 #btn-modal:checked~.modal .contenedor {
@@ -54,7 +55,7 @@ body,
     padding: 1px;
     background: rgb(75, 183, 255);
     color: #fff;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .contenedor label {
@@ -138,7 +139,7 @@ body,
 }
 
 #tarjetas {
-    margin: 9px 0px 7px -167px;
+    margin: -4px 0px 7px 28px;
     width: 552px;
     height: 67px;
     background: rgb(223, 223, 223);
@@ -206,6 +207,7 @@ body,
     font-size: 25px;
     color: aliceblue;
 }
+
 #rectangulo2 {
     margin: -44px 0px 0px 195px;
     width: 12px;
@@ -215,6 +217,7 @@ body,
     font-size: 25px;
     color: aliceblue;
 }
+
 #rectangulo3 {
     margin: -44px 0px 0px 410px;
     width: 12px;
@@ -223,4 +226,106 @@ body,
     border-color: rgb(0, 0, 0);
     font-size: 25px;
     color: aliceblue;
+}
+
+#formu {
+    display: none;
+}
+
+#cuadro-tarjet {
+    margin: 23px 0px 0px 0px;
+    width: 341px;
+    height: 159px;
+    background: rgb(241 241 241);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+h1 {
+    color: gray;
+    font-size: 18px;
+    position: absolute;
+    top: 171px;
+    right: 411px;
+    font-family: initial;
+    font-weight: bold;
+}
+
+#icono-tarjeta {
+    width: 47px;
+    height: 46px;
+    position: absolute;
+    top: 190px;
+    right: 526px;
+}
+
+#num-tarjet {
+    /*Caja de texto*/
+    height: 29px;
+    width: 204px;
+    position: absolute;
+    top: 197px;
+    right: 314px;
+    border-radius: 5px;
+    border: gray;
+}
+
+#fecha {
+    /*Titulo*/
+    color: gray;
+    font-size: 18px;
+    font-family: initial;
+    font-weight: bold;
+    position: absolute;
+    top: 251px;
+    right: 381px;
+}
+
+#fecha-dia {
+    height: 30px;
+    width: 69px;
+    position: absolute;
+    top: 281px;
+    right: 481px;
+    border-radius: 5px;
+    border: gray;
+}
+
+#fecha-año {
+    height: 30px;
+    width: 69px;
+    position: absolute;
+    top: 281px;
+    right: 370px;
+    border-radius: 5px;
+    border: gray;
+}
+
+#salir {
+    height: 20px;
+    width: 18px;
+    position: absolute;
+    top: 173px;
+    right: 327px;
+    border-radius: 10px;
+}
+
+#salir-img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 167px;
+    right: 234px;
+}
+
+#visa1 {
+    /*IMG DE VISA DENTRO DEL CONTENEDOR DE VALIDACION DE TARJETA*/
+    position: absolute;
+    top: 290px;
+    right: 237px;
+    width: 47px;
+    height: 29px;
+    border-radius: 10px;
 }
