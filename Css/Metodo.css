@@ -155,8 +155,8 @@
     visibility: visible;
 }
 .contenedor {
-    width: 600px;
-    height: 436px;
+    width: 737px;
+    height: 508px;
     margin: 260px 0px 0px 44px;
     background: #fff;
     box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
@@ -178,7 +178,7 @@
 
 .contenedor label {
     position: absolute;
-    top: -1px;
+    top: -3px;
     right: 10px;
     color: #fff;
     font-size: 25px;
@@ -226,7 +226,7 @@
 }
 
 #circulo {
-    margin: -35px 0px 18px 566px;
+    margin: -35px 0px 18px 702px;
     width: 32px;
     height: 33px;
     border-radius: 100px;
@@ -237,7 +237,9 @@
 }
 
 #seleccion {
-    margin: 9px 0px 7px 196px;
+    position: absolute;
+    top: 63px;
+    right: 281px;
     width: 197px;
     height: 29px;
     border-radius: 100px;
@@ -249,8 +251,8 @@
 }
 
 #tarjetas {
-    margin: 9px 0px 7px -167px;
-    width: 552px;
+    margin: 62px 0px 7px 28px;
+    width: 689px;
     height: 67px;
     background: rgb(223, 223, 223);
     border-color: rgb(0, 0, 0);
@@ -269,47 +271,49 @@
 
 #masterd {
     /*IMAGEN DE MASTERCARD*/
-    margin: 1px 0px -5px 126px;
+    position: absolute;
+    top: 114px;
+    right: 318px;
     width: 57px;
     height: 42px;
 }
 
 #pse {
     /*IMAGEN DE PSE*/
-    margin: 10px 0px -5px 157px;
+    margin: 17px 0px -5px 509px;
     width: 48px;
     height: 42px;
 }
 
 #exampleRadiosm1 {
     position: absolute;
-    top: 112px;
-    right: 524px;
-    width: 22px;
-    height: 27px;
+    top: 120px;
+    right: 657px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
 }
 
 #exampleRadiosm2 {
     position: absolute;
-    top: 112px;
-    right: 337px;
-    width: 22px;
-    height: 27px;
+    top: 120px;
+    right: 372px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
 }
 
 #exampleRadiosm3 {
     position: absolute;
-    top: 112px;
-    right: 124px;
-    width: 22px;
-    height: 27px;
+    top: 120px;
+    right: 91px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
 }
 
 #rectangulo1 {
-    margin: -44px 0px 0px 10px;
+    margin: -37px 0px 0px 10px;
     width: 12px;
     height: 43px;
     background: rgb(194, 194, 194);
@@ -318,7 +322,7 @@
     color: aliceblue;
 }
 #rectangulo2 {
-    margin: -44px 0px 0px 195px;
+    margin: -44px 0px 0px 297px;
     width: 12px;
     height: 43px;
     background: rgb(194, 194, 194);
@@ -327,7 +331,7 @@
     color: aliceblue;
 }
 #rectangulo3 {
-    margin: -44px 0px 0px 410px;
+    margin: -44px 0px 0px 578px;
     width: 12px;
     height: 43px;
     background: rgb(194, 194, 194);
@@ -342,9 +346,9 @@
 }
 
 #cuadro-tarjet {
-    margin: 23px 0px 0px 0px;
+    margin: 7px 0px 0px 29px;
     width: 341px;
-    height: 159px;
+    height: 152px;
     background: rgb(241 241 241);
     border-color: rgb(0, 0, 0);
     font-size: 25px;
@@ -356,8 +360,8 @@
     color: gray;
     font-size: 18px;
     position: absolute;
-    top: 171px;
-    right: 411px;
+    top: 178px;
+    right: 553px;
     font-family: initial;
     font-weight: bold;
 }
@@ -366,8 +370,8 @@
     width: 47px;
     height: 46px;
     position: absolute;
-    top: 188px;
-    right: 526px;
+    top: 195px;
+    right: 662px;
 }
 
 #num-tarjet {
@@ -375,10 +379,11 @@
     height: 29px;
     width: 204px;
     position: absolute;
-    top: 197px;
-    right: 314px;
+    top: 204px;
+    right: 452px;
     border-radius: 5px;
     border: gray;
+    font-size: 15px;
 }
 
 #fecha {
@@ -388,28 +393,30 @@
     font-family: initial;
     font-weight: bold;
     position: absolute;
-    top: 251px;
-    right: 381px;
+    top: 249px;
+    right: 525px;
 }
 
 #fecha-dia {
     height: 30px;
     width: 69px;
     position: absolute;
-    top: 281px;
-    right: 481px;
+    top: 278px;
+    right: 625px;
     border-radius: 5px;
     border: gray;
+    font-size: 15px;
 }
 
 #fecha-año {
     height: 30px;
     width: 69px;
     position: absolute;
-    top: 281px;
-    right: 370px;
+    top: 278px;
+    right: 530px;
     border-radius: 5px;
     border: gray;
+    font-size: 15px;
 }
 
 #salir {
@@ -425,15 +432,16 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 167px;
-    right: 234px;
+    top: 172px;
+    right: 369px;
+    cursor: pointer;
 }
 
 #visa1 {
     /*IMG DE VISA DENTRO DEL CONTENEDOR DE VALIDACION DE TARJETA*/
     position: absolute;
     top: 290px;
-    right: 237px;
+    right: 370px;
     width: 47px;
     height: 29px;
     border-radius: 10px;
@@ -441,21 +449,29 @@
 
 #check-box-acep {
     position: absolute;
-    top: 338px;
-    right: 568px;
+    top: 359px;
+    right: 702px;
+    cursor: pointer;
 }
 
 #autorizo {
-    width: 589px;
+    width: 604px;
     height: 63px;
     position: absolute;
-    top: 332px;
-    right: -37px;
+    top: 366px;
+    right: 82px;
     color: black;
+    cursor: none;
 }
 
 #auto {
     width: 600px;
     height: 0px;
     font-size: 11px;
+    cursor: none;
+}
+#cont{
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
