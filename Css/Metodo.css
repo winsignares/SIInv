@@ -162,7 +162,6 @@
     box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
     transition: all 500ms ease;
     position: relative;
-    transform: translateY(-30%);
     border-radius: 20px;
 }
 #btn-modal:checked~.modal .contenedor {
@@ -183,7 +182,6 @@
     color: #fff;
     font-size: 25px;
     cursor: pointer;
-    font-weight: bold;
 }
 
 .lbl-modal {
