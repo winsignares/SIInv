@@ -339,9 +339,23 @@
     font-size: 25px;
     color: aliceblue;
 }
+#cuad-gris {
+    position: absolute;
+    top: 210px;
+    right: 191px;
+    width: 176px;
+    height: 31px;
+    background: rgb(134 134 143);
+    border-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
 
 #formu {
     /*FUNCION EN LA CUAL CIERRA EL CONTENEDOR DE LLENAR LAS TARJETAS*/
+    display: none;
+}
+#formu2 {
+    /*FUNCION EN LA CUAL CIERRA EL SEGUNDO CONTENEDOR DE LLENAR LA CONTRASEÑA*/
     display: none;
 }
 
@@ -355,7 +369,16 @@
     border-radius: 10px;
     color: aliceblue;
 }
-
+#cuad-tarjet2 {
+    margin: 31px 0px -183px 205px;
+    width: 341px;
+    height: 152px;
+    background: #d1d1d1;
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    border-radius: 10px;
+    color: aliceblue;
+}
 #valorh1{
     color: gray;
     font-size: 18px;
