@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-let img='';
+
     const baseDeDatos = [
         {
             id: 1,
@@ -44,6 +44,7 @@ let img='';
     function renderizarProductos() {
         baseDeDatos.forEach((info) => {
             // Estructura
+            //alert(info.imagen)
             const miNodo = document.createElement('div');
             miNodo.classList.add('card', 'col-sm-4');
             // Body
@@ -57,6 +58,8 @@ let img='';
             const miNodoImagen = document.createElement('img');
             miNodoImagen.classList.add('img-fluid');
             miNodoImagen.setAttribute('src', info.imagen);
+
+            //alert(miNodoImagen)
             // Precio
             const miNodoPrecio = document.createElement('p');
             miNodoPrecio.classList.add('card-text');
@@ -68,7 +71,7 @@ let img='';
             miNodoBoton.setAttribute('marcador', info.id);
             miNodoBoton.addEventListener('click', anyadirProductoAlCarrito);
             // Insertamos
-            /*miNodoCardBody.appendChild(miNodoImagen);*/
+            miNodoCardBody.appendChild(miNodoImagen);
             miNodoCardBody.appendChild(miNodoTitle);
             miNodoCardBody.appendChild(miNodoPrecio);
             miNodoCardBody.appendChild(miNodoBoton);

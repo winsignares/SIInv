@@ -21,6 +21,7 @@
 
             <input type="checkbox" id="btn-menu">
             <div class="container-menu">
+<<<<<<< HEAD
                 <div class="cont-menu">  
                    
                   
@@ -29,6 +30,34 @@
                     <label for="btn-menu">✖️ </label>
                         <a href="#" class="btn btn-primary">Comprar ahora</a>
                         <a href="#" class="btn btn-danger">Cancelar compras</a>
+=======
+                <div class="cont-menu">
+                    <img src="../IMG/carrito-de-compras.png" alt="" class="carrito-de-compras">
+                    <label for="btn-menu">✖️</label>
+                    <!-- Elementos generados a partir del JSON -->
+                    <aside class="col-sm-4">
+                        <h2>Carrito</h2>
+                        <!-- Elementos del carrito -->
+                        <ul id="carrito" class="list-group"></ul>
+                        <hr>
+                        <!-- Precio total -->
+                        <p class="text-right">Total: <span id="total"></span>&euro;</p>
+
+
+                        <!--botones-->
+                        <div style="text-align: center;" class="botones">
+                            <button  class="compra">Comprar ahora</button>
+                            <button   class="cancelar">Cancelar compras</button>
+                            <button class="editar">editar</button>
+                            <!--<button id="boton-cambiarPag" class="btn btn-primary"></button-->
+                        </div>
+                    </aside>
+                    <!--parte de abajo-->
+                  
+                    <h6 class="compraSegura">compra segura:</h6>
+  <h6 class="cantidad">cantidad Agregada:</h6>
+  <input type="text" class="cantidad" >
+>>>>>>> 4e4d47590ce1ecb2ff813270543d69168b889a6b
                 </div>
             </div>
       
@@ -37,14 +66,12 @@
 
 
         </div>
-
-
-
     </header>
 
-
+    <main id="items" class="list-group"></main>
 
 </body>
 <script src="probando.js"></script>
+<script src="../js/addCart.js"></script>
 
 </html>
