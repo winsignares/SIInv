@@ -122,12 +122,15 @@
     color: aliceblue;
 
 }
-#resu{
+
+#resu {
     margin: 131px 0px 0px 0px;
 }
-#recu{
+
+#recu {
     margin: 0px 0px 0px -50px;
 }
+
 /*diseño del modal de seleccion de metodos de pago*/
 
 .modal {
@@ -154,9 +157,10 @@
     opacity: 1;
     visibility: visible;
 }
+
 .contenedor {
     width: 737px;
-    height: 508px;
+    height: 529px;
     margin: 386px 0px 0px 44px;
     background: #fff;
     box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
@@ -164,6 +168,7 @@
     position: relative;
     border-radius: 20px;
 }
+
 #btn-modal:checked~.modal .contenedor {
     transform: translateY(-40%);
 }
@@ -256,8 +261,6 @@
     border-color: rgb(0, 0, 0);
     font-size: 25px;
     color: aliceblue;
-
-
 }
 
 #visa {
@@ -319,6 +322,7 @@
     font-size: 25px;
     color: aliceblue;
 }
+
 #rectangulo2 {
     margin: -44px 0px 0px 297px;
     width: 12px;
@@ -328,6 +332,7 @@
     font-size: 25px;
     color: aliceblue;
 }
+
 #rectangulo3 {
     margin: -44px 0px 0px 578px;
     width: 12px;
@@ -337,6 +342,7 @@
     font-size: 25px;
     color: aliceblue;
 }
+
 #cuad-gris {
     position: absolute;
     top: 210px;
@@ -352,6 +358,7 @@
     /*FUNCION EN LA CUAL CIERRA EL CONTENEDOR DE LLENAR LAS TARJETAS*/
     display: none;
 }
+
 #formu2 {
     /*FUNCION EN LA CUAL CIERRA EL SEGUNDO CONTENEDOR DE LLENAR LA CONTRASEÑA*/
     display: none;
@@ -367,6 +374,7 @@
     border-radius: 10px;
     color: aliceblue;
 }
+
 #cuad-tarjet2 {
     margin: 31px 0px -183px 205px;
     width: 341px;
@@ -377,7 +385,8 @@
     border-radius: 10px;
     color: aliceblue;
 }
-#valorh1{
+
+#valorh1 {
     color: gray;
     font-size: 18px;
     position: absolute;
@@ -491,8 +500,109 @@
     font-size: 11px;
     cursor: none;
 }
-#cont{
+
+#cont {
     position: absolute;
     top: 30px;
     right: 30px;
+}
+
+#cv {
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+#clave {
+    /*IMPUT*/
+    position: absolute;
+    top: 66px;
+    right: 44px;
+    width: 64px;
+    height: 27px;
+    border-radius: 5px;
+    border: #fff;
+}
+
+#canda-img {
+    position: absolute;
+    top: 70px;
+    right: 114px;
+    width: 15px;
+    height: 20px;
+}
+
+#pre-img {
+    position: absolute;
+    top: 66px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+#selec {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: -1px;
+    right: 11px;
+}
+
+#psi-con {
+    position: absolute;
+    top: 462px;
+    right: 26px;
+    width: 674px;
+    height: 67px;
+    background: rgb(245 245 245);
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 12px;
+}
+
+#psi-info {
+    position: absolute;
+    top: 1px;
+    right: -3px;
+    width: 600px;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+}
+
+#cola-img {
+    position: absolute;
+    top: 1px;
+    right: 584px;
+    width: 106px;
+    height: 63px;
+}
+
+#poli {
+    position: absolute;
+    top: 49px;
+    right: -3px;
+    width: 600px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(71, 71, 255);
+}
+
+#sub-btn {
+    position: absolute;
+    top: 414px;
+    right: 35px;
+    width: 96px;
+    height: 34px;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border: #fff;
+    background-color: #2e2eff;
 }
