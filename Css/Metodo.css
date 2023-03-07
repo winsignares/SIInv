@@ -346,8 +346,8 @@
 #cuad-gris {
     position: absolute;
     top: 210px;
-    right: 191px;
-    width: 176px;
+    right: 190px;
+    width: 173px;
     height: 31px;
     background: rgb(134 134 143);
     border-color: rgb(0, 0, 0);
@@ -360,6 +360,15 @@
 }
 
 #formu2 {
+    /*FUNCION EN LA CUAL CIERRA EL SEGUNDO CONTENEDOR DE LLENAR LA CONTRASEÑA*/
+    display: none;
+}
+#formu-master {
+    /*FUNCION EN LA CUAL CIERRA EL CONTENEDOR DE LLENAR LAS TARJETAS*/
+    display: none;
+}
+
+#formu-master {
     /*FUNCION EN LA CUAL CIERRA EL SEGUNDO CONTENEDOR DE LLENAR LA CONTRASEÑA*/
     display: none;
 }

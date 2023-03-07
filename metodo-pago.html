@@ -54,8 +54,7 @@
                                 <div class="card">
                                     <div class="container">
 
-                                        <input type="checkbox" id="btn-modal" type="radio" name="exampleRadios"
-                                            value="option1">
+                                        <input type="checkbox" id="btn-modal" type="radio" name="exampleRadios" value="option1">
                                         <label class="lbl-modal" for="btn-modal">
                                             Tarjeta de Credito o Debito
                                             <img src="IMG/visa.jpg" class="visa" alt="">
@@ -73,31 +72,26 @@
                                                     <div id="bolita-3"></div>
                                                 </header>
                                                 <div id="circulo">
-                                                    <label for="btn-modal" style="font-weight: bold;">X</label>
+                                                    <label for="btn-modal" style="font-weight: bold;">
+                                                        X
+                                                    </label>
                                                 </div>
                                                 <div class="contenido">
                                                     <div id="seleccion">
-                                                        <p style="font-size: 20px; font-weight: bold; color: black;"
-                                                            id="selec">
-                                                            SELECCIONA PAGO</p>
+                                                        <p style="font-size: 20px; font-weight: bold; color: black;" id="selec">
+                                                        SELECCIONA PAGO
+                                                        </p>
                                                     </div>
                                                     <div id="tarjetas">
                                                         <img src="IMG/visa.jpg" alt="" id="visa">
                                                         <img src="IMG/masterd.png" alt="" id="masterd">
                                                         <img src="IMG/pse-removebg-preview.png" alt="" id="pse">
 
-                                                        <input class="form-check-input" type="radio"
-                                                            name="exampleRadioss" id="exampleRadiosm1" value="option1"
-                                                            onclick="mostrar()">
-                                                        <label class="form-check-label" for="exampleRadiosm1"></label>
+                                                        <input class="form-check-input" type="radio" name="exampleRadioss" id="exampleRadiosm1" value="option1" onclick="mostrar()">
 
-                                                        <input class="form-check-input" type="radio"
-                                                            name="exampleRadioss" id="exampleRadiosm2" value="option2">
-                                                        <label class="form-check-label" for="exampleRadiosm2"></label>
+                                                        <input class="form-check-input" type="radio" name="exampleRadioss" id="exampleRadiosm2" value="option2" onclick="mostrarmaster()">
 
-                                                        <input class="form-check-input" type="radio"
-                                                            name="exampleRadioss" id="exampleRadiosm3" value="option3">
-                                                        <label class="form-check-label" for="exampleRadiosm3"></label>
+                                                        <input class="form-check-input" type="radio" name="exampleRadioss" id="exampleRadiosm3" value="option3">
 
                                                         <div id="rectangulo1"></div>
                                                         <div id="rectangulo2"></div>
@@ -114,29 +108,25 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!--Ventana para llenar datos de tarjeta Visa-->
 
                                                     <div id="formu">
-                                                        <img src="IMG/icono_de_tarjetas-removebg-preview.png" alt=""
-                                                            id="icono-tarjeta">
+                                                        <img src="IMG/icono_de_tarjetas-removebg-preview.png" id="icono-tarjeta">
                                                         <div id="cuadro-tarjet">
 
                                                             <h1 id="valorh1">Numero de tarjeta</h1>
                                                             <h1 id="fecha">Fecha de Vencimiento</h1>
 
-                                                            <input type="text" id="num-tarjet"
-                                                                placeholder="Numero de su tarjeta">
+                                                            <input type="text" id="num-tarjet" placeholder="Numero de su tarjeta">
 
                                                             <input type="text" id="fecha-dia" placeholder="Dia">
 
                                                             <input type="text" id="fecha-año" placeholder="AA">
 
                                                             <img src="IMG/visa.jpg" alt="" id="visa1">
-                                                            <img src="IMG/salir.png" alt="" id="salir-img"
-                                                                onclick="cerrar()">
+                                                            <img src="IMG/salir.png" alt="" id="salir-img" onclick="cerrar()">
 
-                                                            <input class="form-check-input" type="radio"
-                                                                name="exampleRadios" id="check-box-acep"
-                                                                value="option1">
+                                                            <input class="form-check-input" type="radio" name="exampleRadios" id="check-box-acep" value="option1">
                                                             <label class="form-check-label" for="check-box-acep">
                                                                 <div id="autorizo">
                                                                     <p id="auto">Autorizo a PCI DSS a cobrarme
@@ -147,13 +137,57 @@
                                                                         cancelar en cualquier momento poniendome
                                                                         en contacto con el servicio de atencion
                                                                         al cliente de PCI DSS en help
-                                                                        PCIDSS.com. Sin reembolsos parciales.</p>
+                                                                        PCIDSS.com. Sin reembolsos parciales.
+                                                                    </p>
                                                                 </div>
                                                             </label>
 
                                                         </div>
-                                                        <button id="sub-btn">SUBMIT</button>
+                                                        <a href="Facturacion.html"><button id="sub-btn">SUBMIT</button></a>
                                                     </div>
+                                                    <!--Fin de la ventana de Visa-->
+
+
+                                                    <!--Ventana para llenar datos de tarjeta Mastercard-->
+
+                                                    <div id="formu-master">
+                                                        <img src="IMG/icono_de_tarjetas-removebg-preview.png" id="icono-tarjeta">
+                                                        <div id="cuadro-tarjet">
+
+                                                            <h1 id="valorh1">Numero de tarjeta</h1>
+                                                            <h1 id="fecha">Fecha de Vencimiento</h1>
+
+                                                            <input type="text" id="num-tarjet" placeholder="Numero de su tarjeta">
+
+                                                            <input type="text" id="fecha-dia" placeholder="Dia">
+
+                                                            <input type="text" id="fecha-año" placeholder="AA">
+
+                                                            <img src="IMG/mastercard.jpg" alt="" id="visa1">
+                                                            <img src="IMG/salir.png" alt="" id="salir-img" onclick="cerrarmaster()">
+
+                                                            <input class="form-check-input" type="radio" name="exampleRadios" id="check-box-acep" value="option1">
+                                                            <label class="form-check-label" for="check-box-acep">
+                                                                <div id="autorizo">
+                                                                    <p id="auto">Autorizo a PCI DSS a cobrarme
+                                                                        automaticamente el monto total que se
+                                                                        muestra en la pagina y el impuesto
+                                                                        aplicable cada mes de forma continua
+                                                                        hasta que cancele. Puede cambiar o
+                                                                        cancelar en cualquier momento poniendome
+                                                                        en contacto con el servicio de atencion
+                                                                        al cliente de PCI DSS en help
+                                                                        PCIDSS.com. Sin reembolsos parciales.
+                                                                    </p>
+                                                                </div>
+                                                            </label>
+
+                                                        </div>
+                                                        <a href="Facturacion.html">
+                                                            <button id="sub-btn">SUBMIT</button>
+                                                        </a>
+                                                    </div>
+                                                    <!--Fin de la ventana de Mastercard-->
 
                                                     <div id="psi-con">
                                                         <p id="psi-info">PCI DSS es un distribuidor de software de
@@ -164,18 +198,15 @@
                                                         <p id="poli">Politica de privacidad | Acuerdo de usuario |
                                                             Politica de
                                                             reembolso | Acuerdos legales</p>
-                                                        <img src="IMG/Colaborador-removebg-preview.png" alt=""
-                                                            id="cola-img">
+                                                        <img src="IMG/Colaborador-removebg-preview.png" id="cola-img">
                                                     </div>
-
                                                 </div>
-
                                             </div>
                                         </div>
+                                        <!--Fin de la Ventana Modal-->
                                     </div>
                                 </div>
                 </div>
-                <!--Fin de la Ventana Modal-->
             </div>
         </div>
         </tr>
