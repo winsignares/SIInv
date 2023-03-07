@@ -93,6 +93,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
+    * Evento para añadir una Imagen-producto al carrito de la compra
+    */
+    function addImageCartmenu() {
+        // Creamos etiquetas img | img = `<img src="${imagen}" class="addProducto">`;
+        let img = `<img src="${imagen}" class="addProducto">`;
+
+        carrito.push(evento.target.getAttribute('marcador'))
+        // Actualizamos el carrito 
+        renderizarCarrito();
+        // Actualizamos el LocalStorage
+        guardarCarritoEnLocalStorage();
+    }
+    /**
     * Dibuja todos los productos guardados en el carrito
     */
     function renderizarCarrito() {
