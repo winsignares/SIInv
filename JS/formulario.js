@@ -1,19 +1,29 @@
-function mostrar(){
+function mostrar() {
     document.getElementById('formu').style.display = 'block';
     document.getElementById('formu2').style.display = 'block';
 }
-function cerrar(){
+function cerrar() {
     document.getElementById('formu').style.display = 'none';
     document.getElementById('formu2').style.display = 'none';
 
 }
 
-function mostrarmaster(){
+function mostrarmaster() {
     document.getElementById('formu-master').style.display = 'block';
     document.getElementById('formu2').style.display = 'block';
 }
-function cerrarmaster(){
+function cerrarmaster() {
     document.getElementById('formu-master').style.display = 'none';
+    document.getElementById('formu2').style.display = 'none';
+
+}
+
+function mostrarpse() {
+    document.getElementById('formu-pse').style.display = 'block';
+    document.getElementById('formu2').style.display = 'block';
+}
+function cerrarpse() {
+    document.getElementById('formu-pse').style.display = 'none';
     document.getElementById('formu2').style.display = 'none';
 
 }
